@@ -3,7 +3,7 @@ theme: jekyll-theme-midnight
 title: hop en stock
 description: Recipe history, usefuls links for homebrewing
 
-url: ipingu.github.io/hopenstock
+baseurl: /hopenstock
 
 permalink: pretty
 show_downloads: false
