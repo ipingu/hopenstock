@@ -1,7 +1,9 @@
 # Recipes History
 
-- Mozaipiai
-- Fruity Loops
-- Terraipiai
-- American Wheat 
-- American Wheat Again
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
