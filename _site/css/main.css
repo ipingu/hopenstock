@@ -153,7 +153,7 @@ nav > ul > li:hover {
   background-color: rgba(0,0,0,0.2);
 }
  
-nav ul li {
+li {
     display: inline-block;
     list-style-type: none;
      
@@ -193,6 +193,18 @@ ul.line li {
   height: 180px;
   line-height: 180px;
   text-align: center;
+  border: 8px solid rgba(255,255,255,0.10)
+}
+
+ul.line li:hover {
+ border: 8px solid rgba(255,255,255,0.5);
+ background-color: rgba(0,0,0,0.1);
+}
+
+ul.line li a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 /* for tables */
