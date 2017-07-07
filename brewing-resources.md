@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## Tools
 
 Links for useful brew tools
