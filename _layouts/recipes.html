@@ -1,9 +1,14 @@
 
 {% include header.html%}
+
+<div class="wrapper" />
+  <ul class="line">
     {% for post in site.posts %}
-    <li>
+    <li class="shadow">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
+  </ul>
+<div class="wrapper" />
 
 {% include footer.html%}
