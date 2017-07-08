@@ -10,6 +10,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
+        <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil|Cabin+Sketch|Fjalla+One|Fredericka+the+Great|Michroma|Poiret+One|Righteous|Six+Caps|Squada+One|Voltaire" rel="stylesheet">
         <link rel="stylesheet" href="{{ "/css/normalize.css " | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/main.css " | prepend: site.baseurl }}">
         <script src="{{ "/js/vendor/modernizr-2.8.3.min.js " | prepend: site.baseurl }}"></script>
@@ -20,16 +21,21 @@
         <![endif]-->
 
         <header>
-            <h1><a href="{{ site.baseurl }}/">hopenstock</a></h1>
+        <div class="wrapper">
+            <h1 class="logo"><a href="{{ site.baseurl }}/"><span style="font-size: 5em; margin: -5px">HOP</span><span style="font-size: 2em">EN STOCK</span></a>
+            </h1>
+
+            <nav id="main" class="shadow">
+                <ul>
+                    <li><a href="{{ site.baseurl }}{% link recipes.md %}">recipes</a></li>
+                    <li><a href="{{ site.baseurl }}{% link brewing-resources.md %}">brew tools</a></li>
+                </ul>
+            </nav>
+        </div>
         </header>
 
 
-        <nav class="horizontal shadow">
-            <ul>
-                <li><a href="{{ site.baseurl }}{% link recipes.md %}">Recipes</a></li>
-                <li><a href="{{ site.baseurl }}{% link brewing-resources.md %}">Brew tools</a></li>
-            </ul>
-        </nav>
+
 
 
   
