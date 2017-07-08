@@ -109,13 +109,17 @@ body {
 /*    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
     font-weight: 300;
     font-size: 15px;
-    margin: 50px 20px 20px 20px;
+    margin: 30px 0 20px 0;
 }
 
 h1 {
     text-decoration: none;
     line-height: 96px;
     flex: 2;
+}
+
+h1.logo {
+    margin-left: 24px;
 }
 
 h1.logo span {
@@ -129,14 +133,10 @@ div.wrapper {
     flex-wrap: wrap;
 }
 
-
-
-div.wrapper nav {
-    flex: 1;
-}
-
 div.wrapper article {
     flex: 4;
+    border: 8px solid rgba(255,255,255,0.10);
+    margin: 0 0.5em 0.5em 0.5em;
 }
 
 a,a:visited,a:hover,a:active {
@@ -145,7 +145,8 @@ a,a:visited,a:hover,a:active {
 }
 
 article {
-  padding: 20px;
+  padding: 0 20px 20px 20px;
+  margin: 0.5em;
 }
 
 .shadow {
@@ -174,10 +175,8 @@ li {
 }
 
 nav#main {
-    margin-bottom: 42px;
     flex: 0 1 auto;
     font-size: 2em;
-    align-self: flex-end;
     text-align: right;
 }
 
@@ -198,22 +197,23 @@ nav.sidebar > ul > li > a {
     display: block;
     line-height: 56px;
     padding: 0 30px;
+    font-size: 1.3em;
 }
 
 /* recipe item in list */
 ul.line {
-    display: table;
+    display: flex;
     vertical-align: middle;
+    flex-wrap: wrap;
 } 
 
 ul.line li {
-  display: table-cell;
-  width: 220px;
+  flex: 1 1 220px;
   font-size: 2em;
   height: 180px;
   text-align: center;
   border: 8px solid rgba(255,255,255,0.10);
-  vertical-align: middle;
+  margin: 0 0.5em 0.5em 0.5em;
 }
 
 ul.line li:hover {
@@ -228,6 +228,12 @@ ul.line li a {
 }
 
 /* simple vertical list */
+
+nav.sidebar {
+    flex: 1 1 2em;
+    border: 8px solid rgba(255,255,255,0.10);
+    margin: 0 0.5em 0.5em 0.5em;
+}
 
 ul.vertical {
     line-height: 2em;

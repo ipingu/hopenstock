@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>{{ page.title }}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,10 +25,11 @@
             <h1 class="logo"><a href="{{ site.baseurl }}/"><span style="font-size: 5em; margin: -5px">HOP</span><span style="font-size: 2em">EN STOCK</span></a>
             </h1>
 
-            <nav id="main" class="shadow">
+            <nav id="main">
                 <ul>
                     <li><a href="{{ site.baseurl }}{% link recipes.md %}">recipes</a></li>
                     <li><a href="{{ site.baseurl }}{% link brewing-resources.md %}">brew tools</a></li>
+                    <li><a href="{{ site.baseurl }}{% link log-sheet.md %}">log sheet</a></li>
                 </ul>
             </nav>
         </div>
