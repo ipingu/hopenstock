@@ -53,13 +53,21 @@
             </tr>
           </thead>
           <tbody>
+          {% if recipe.FERMENTABLES.FERMENTABLE.NAME != null %}
+            <tr>
+              <td>{{recipe.FERMENTABLES.FERMENTABLE.NAME}}</td>
+              <td>{{recipe.FERMENTABLES.FERMENTABLE.DISPLAY_AMOUNT}}</td>
+              <td></td>
+            </tr>
+          {% else %}
           {% for fermentable in recipe.FERMENTABLES.FERMENTABLE %}
             <tr>
               <td>{{fermentable.NAME}}</td>
               <td>{{fermentable.DISPLAY_AMOUNT}}</td>
-              <td>30%</td>
+              <td></td>
             </tr>
           {% endfor %}
+          {% endif %}
           </tbody>
         </table>
 
