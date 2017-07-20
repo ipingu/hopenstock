@@ -239,7 +239,7 @@ ul.line li:hover {
 }
 
 ul.line li img {
-  width: 400px;
+  max-width:100%;
 }
 
 ul.line li a {
