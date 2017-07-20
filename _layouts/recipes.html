@@ -5,7 +5,13 @@
   <ul class="line">
     {% for post in site.posts %}
     <li class="shadow">
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+     {% if post.image %}
+     	<img src="{{ site.baseurl }}/images/{{ post.image }}" />
+     {% else %}
+     	{{ post.title }}
+     {% endif %}
+     </a>
     </li>
   {% endfor %}
   </ul>

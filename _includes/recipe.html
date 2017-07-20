@@ -2,10 +2,9 @@
 
    <h2>{{recipe.NAME}}</h2>
    <div class="wrapper">
-    <div class="description">
-    {{ content }}
-    </div>
-    <div class="metrics">
+       {{ content }}
+
+      <div class="metrics">
          <table>
             <tr>
               <td>style</td>
@@ -41,13 +40,19 @@
             </tr>
           </table>
         </div>
+
+        <div class="etiquette">
+         {% if page.image %}
+          <img src="{{ site.baseurl }}/images/{{ page.image }}" />
+         {% endif %}
+         </div>
+
       </div>
 
-        <h3>Fermentables</h3>
-        <table>
+        <table class="wide">
           <thead>
             <tr>              
-              <th>malt</th>
+              <th>fermentables</th>
               <th>quantity</th>
               <th>ratio</th>
             </tr>
@@ -72,11 +77,10 @@
         </table>
 
 
-       <h3>Hops</h3>
-       <table>
+       <table class="wide">
           <thead>
             <tr>              
-              <th>variety</th>
+              <th>hops variety</th>
               <th>alpha</th>
               <th>boil time</th>
               <th>quantity</th>
@@ -94,5 +98,17 @@
           </tbody>
         </table>
 
-        <h3>Yeast</h3>
-        <p>{{recipe.YEASTS.YEAST.DISPLAY_AMOUNT}} {{recipe.YEASTS.YEAST.NAME}}</p>
+        <table class="wide">
+          <thead>
+            <tr>              
+              <th>yeast</th>
+              <th>quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>{{recipe.YEASTS.YEAST.NAME}}</td>
+              <td>{{recipe.YEASTS.YEAST.DISPLAY_AMOUNT}}</td>
+            </tr>
+          </tbody>
+        </table>
