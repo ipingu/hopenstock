@@ -1,7 +1,9 @@
 
 {% include header.html %}
 
-<div class="wrapper" />
+<section>
+	<article>
+<div class="wrapper">
   <ul class="line">
     {% for post in site.posts %}
     <li class="shadow">
@@ -15,6 +17,9 @@
     </li>
   {% endfor %}
   </ul>
-<div class="wrapper" />
+</div>
+
+</article>
+</section>
 
 {% include footer.html %}
