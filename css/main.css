@@ -88,6 +88,24 @@ textarea {
     resize: vertical;
 }
 
+h1,h2,h3 {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s; 
+}
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -104,197 +122,121 @@ textarea {
    ========================================================================== */
 
 html {
-    background-color: rgb(242, 242, 242);
+    background-color: rgb(96, 178, 250);
 }
 
 body {
     color: #d4e7e9;
-/*    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
-    font-weight: 300;
-    font-size: 15px;
-    margin: 5px;
+    margin: 1em;
     background-color: #4c5f66;
-}
-
-.clear {
-    margin-top: 3em;
-}
-
-body > * {
-
+    border: 0.5em solid rgba(255, 255, 255, 0.2);
 }
 
 header {
-   
+  padding-bottom: 4em;
 }
 
-h2 {
-    margin: 0;
-}
-
-h1 {
-     margin: 0;
-     flex: 2;
-}
-
-div.logo {
-    padding:30px;
-    padding-top: 50px;
-    line-height: 96px;
-}
-
-div.logo span {
-    color: rgb(96, 178, 250);
-    display: block;
-    width: 212px;
-}
-
+/* Main wrapper */
 div.wrapper {
     display: flex;
     flex-wrap: wrap;
 }
 
-div.wrapper article {
-    flex: 4;
+.clear {
+  margin-top: 3em;
 }
 
-a,a:visited,a:hover,a:active {
-    color: #d4e7e9;
-    text-decoration: none;
-}
-
-article {
-  padding: 0 20px 20px 20px;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-li {
-    list-style-type: none;
-     
-    -webkit-transition: all 0.2s;
-    -moz-transition: all 0.2s;
-    -ms-transition: all 0.2s;
-    -o-transition: all 0.2s;
-    transition: all 0.2s; 
+a, a:visited, a:hover, a:active {
+  color: #d4e7e9;
+  text-decoration: none;
 }
 
 nav > ul > li:hover {
-      background-color: rgba(255,255,255,0.2);
+  background-color: rgba(255,255,255,0.2);
 }
-
 
 .sidebar ul {
-        background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.2);
 }
 
+nav a {
+  line-height: 2em;
+  padding: 0 1em;
+  display: block;
+}
+
+/* Logo magic */
+div.logo {
+
+}
+
+div.logo span {
+    color: rgb(96, 178, 250);
+    display: block;
+}
+
+div.logo span.first-line {
+  font-size: 5em;
+  line-height: 168px;
+}
+
+div.logo span.second-line {
+  font-size: 2em;
+  line-height: 58px;
+}
+
+h1 {
+     flex: 2;
+}
+
+/* Recipes should be three times bigger than the nav sidebar */
+div.wrapper article {
+    flex: 3;
+}
+
+/* Main navigation (recipes / tools) */
 nav#main {
-    flex: 0 1 auto;
-    font-size: 2em;
-    text-align: right;
+  flex: 0 1 auto;
+  font-size: 2em;
+  text-align: right;
 }
 
-nav#main > ul > li > a {
-    display: block;
-    line-height: 56px;
-    padding: 0 30px;
-    text-decoration: none;
-    color: rgb(173, 215, 252);
-}
-
-.wide {
-    margin: 20px 0 20px 0;
-}
-
-/* recipes item in sidebar */
-
-nav.sidebar {
-    flex: 0 3 auto;
-}
-
-nav.sidebar > ul > li > a {
-    display: block;
-    line-height: 56px;
-    padding: 0 30px;
-    font-size: 1.3em;
-}
-
-/* recipe item in list */
+/* recipes list */
 ul.line {
-    display: flex;
-    vertical-align: middle;
-    flex-wrap: wrap;
+  display: flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
 } 
 
 ul.line li {
   flex: 1 1 350px;
-  background-color: rgba(255,255,255,0.10);
   margin: 0.5em;
 }
 
-ul.line li:hover {
- border-color: rgba(255,255,255,0.5);
- background-color: rgba(0,0,0,0.1);
-}
-
-ul.line li img {
+ul.line img {
   max-width:100%;
 }
 
-ul.line li a {
-  display: block;
-  text-transform: uppercase;
-  font-weight: bold;
-  line-height: 6em;
-  vertical-align: middle;
-}
-
-/* simple vertical list */
-
-nav.sidebar {
-    flex: 1 1 2em;
-    margin: 0 0.5em 0.5em 0.5em;
-}
-
-ul.vertical {
-    line-height: 2em;
-}
-
-/* recipe description */
-div.wrapper .etiquette {
-}
-
+/* Recipe layout */
 .etiquette img {
-    width: 400px;
+  width: 400px;
 }
 
 div.wrapper .metrics {
     flex: 2;
 }
 
-.title h1 {
+
+/* article title */
+article h1 {
     display: inline;
+    line-height: 2em;
 }
 
-.title {
+article .title {
     background-color: rgba(255, 255, 255, 0.2);
     display: inline-block;
-    padding: 0.5em;
     margin-bottom: 1em;
-}
-
-h2 {
-    display: inline;
-    padding: 10px;
-}
-
-h3 {
-    padding-top: 4em;
 }
 
 /* for tables */
