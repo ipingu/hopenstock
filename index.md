@@ -2,10 +2,8 @@
 layout: default
 title: hopenstock
 ---
-
-
 <section>
-  {% for post in site.posts do %}
+  {% for post in site.posts %}
   <article>
   	<div class="title">
   		<h1>
