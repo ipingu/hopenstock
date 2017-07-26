@@ -1,27 +1,16 @@
 
 {% include header.html %}
 
-<div class="wrapper bloc">
-	<nav class="sidebar shadow">
-		<ul class="vertical">
-	    {% for post in site.posts %}
-	    <li>
-	      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-	    </li>
-	 	{% endfor %}
+{% include pagination.html %}
 
-	  </ul>
-  </nav>
+<article class="recipe">
+	{% assign recipe = site.data.recipes[page.recipe_id].RECIPE %}
+    {% include recipe.html %}
 
-  <article class="recipe shadow">
-        {% assign recipe = site.data.recipes[page.recipe_id].RECIPE %}
-        {% include recipe.html %}
-
-        {% if page.log %}
-        {% include log.html %}
-        {% endif %}
-  </article>
-</div>
-        
+    {% if page.log %}
+    {% include log.html %}
+    {% endif %}
+</article>
+{% include pagination.html %}
 
 {% include footer.html%}

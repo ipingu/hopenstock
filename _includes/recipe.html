@@ -11,48 +11,48 @@
             </tr>
             <tr>
               <td>estimated ABV</td>
-              <td>{{recipe.EST_ABV}}</td>
+              <td>{% include numf.html number=recipe.EST_ABV decimals=1 remove='%' %}%</td>
             </tr>
             <tr>
               <td>IBU</td>
-              <td>{{recipe.IBU}}</td>
+              <td>{% include numf.html number=recipe.IBU decimals=0 remove='IBUs' %}</td>
             </tr>
             <tr>
               <td>OG</td>
-              <td>{{recipe.EST_OG}}</td>
+              <td>{% include numf.html number=recipe.EST_OG decimals=3 remove='SG' %}</td>
             </tr>
             <tr>
               <td>FG</td>
-              <td>{{recipe.EST_FG}}</td>
+              <td>{% include numf.html number=recipe.EST_FG decimals=3 remove='SG'%}</td>
             </tr>
              <tr>
               <td>carbonation</td>
-              <td>{{recipe.CARBONATION}}</td>
+              <td>{% include numf.html number=recipe.CARBONATION decimals=1 %}</td>
             </tr>
             <tr>
               <td>efficiency</td>
-              <td>{{recipe.EFFICIENCY}}</td>
+              <td>{% include numf.html number=recipe.EFFICIENCY decimals=0 %}%</td>
             </tr>
             <tr>
               <td>batch volume</td>
-              <td>{{recipe.DISPLAY_BATCH_SIZE}}</td>
+              <td>{% include numf.html number=recipe.DISPLAY_BATCH_SIZE decimals=1 remove='l' %}L</td>
             </tr>
           </table>
         </div>
 
+        {% if page.image %}
         <div class="etiquette">
-         {% if page.image %}
           <img src="{{ site.baseurl }}/images/{{ page.image }}" />
-         {% endif %}
-         </div>
+        </div>
+        {% endif %}
 
       </div>
 
-        <table class="wide">
+        <table class="wide clear">
           <thead>
             <tr>              
               <th>fermentables</th>
-              <th>quantity</th>
+              <th>quantity (g)</th>
               <th>ratio</th>
             </tr>
           </thead>
@@ -60,14 +60,14 @@
           {% if recipe.FERMENTABLES.FERMENTABLE.NAME != null %}
             <tr>
               <td>{{recipe.FERMENTABLES.FERMENTABLE.NAME}}</td>
-              <td>{{recipe.FERMENTABLES.FERMENTABLE.DISPLAY_AMOUNT}}</td>
+              <td>{% include numf.html number=recipe.FERMENTABLES.FERMENTABLE.DISPLAY_AMOUNT decimals=0 %}</td>
               <td></td>
             </tr>
           {% else %}
           {% for fermentable in recipe.FERMENTABLES.FERMENTABLE %}
             <tr>
               <td>{{fermentable.NAME}}</td>
-              <td>{{fermentable.DISPLAY_AMOUNT}}</td>
+              <td>{% include numf.html number=fermentable.DISPLAY_AMOUNT decimals=0 %}</td>
               <td></td>
             </tr>
           {% endfor %}
@@ -76,28 +76,28 @@
         </table>
 
 
-       <table class="wide">
+       <table class="wide clear">
           <thead>
             <tr>              
               <th>hops variety</th>
-              <th>alpha</th>
-              <th>boil time</th>
-              <th>quantity</th>
+              <th>alpha (%)</th>
+              <th>boil time (min)</th>
+              <th>quantity (g)</th>
             </tr>
           </thead>
           <tbody>
             {% for hop in recipe.HOPS.HOP %}
             <tr>
               <td>{{hop.NAME}}</td>
-              <td>{{hop.ALPHA}}</td>
-              <td>{{hop.DISPLAY_TIME}}</td>
-              <td>{{hop.DISPLAY_AMOUNT}}</td>
+              <td>{% include numf.html number=hop.ALPHA decimals=1 %}</td>
+              <td>{% include numf.html number=hop.DISPLAY_TIME decimals=0 remove='min' %}</td>
+              <td>{% include numf.html number=hop.DISPLAY_AMOUNT decimals=1 remove='g' %}</td>
             </tr>
             {% endfor %}
           </tbody>
         </table>
 
-        <table class="wide">
+        <table class="wide clear">
           <thead>
             <tr>              
               <th>yeast</th>
