@@ -61,31 +61,35 @@ div {
   }
 
   /* logo */
-  &.logo span {
-    color: $logo_bg_color;
-    display: block;
+  &.logo {
+    margin: 5px;
 
-    &.first-line {
-      font-size: 2em;
-      line-height: 67px;
-    }
+    span {
+      color: $logo_bg_color;
+      display: block;
 
-    &.second-line {
-      font-size: 0.84em;
-      line-height: 16px;
-      margin-left: 2px;
-    }
+      &.first-line {
+        font-size: 3em;
+        line-height: 100px;
+      }
 
-	@media (min-width: $breakpoint-tablet) {
-  	  &.first-line {
-        font-size: 5em;
-        line-height: 168px;
-  	  }
+      &.second-line {
+        font-size: 1.25em;
+        line-height: 18px;
+        margin-left: 3px;
+      }
 
-  	  &.second-line {
-        font-size: 2em;
-        line-height: 58px;
-        margin-left: 5px;
+	  @media (min-width: $breakpoint-tablet) {
+  	    &.first-line {
+          font-size: 5em;
+          line-height: 168px;
+  	    }
+
+  	    &.second-line {
+          font-size: 2em;
+          line-height: 58px;
+          margin-left: 5px;
+        }
       }
     }
   }
