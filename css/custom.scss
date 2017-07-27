@@ -1,0 +1,222 @@
+---
+---
+
+// Colors
+$bg_color: #60b2fa;
+$text_color: #d4e7e9;
+$content_bg_color: #4c5f66;
+$title_bg_color: rgba(255, 255, 255, 0.2);
+$logo_bg_color: #f6f6f6;
+$radius: 3px;
+
+// Breakpoints
+$breakpoint-tablet: 768px
+
+html {
+  background-color: $bg_color;
+}
+
+body {
+  color: $text_color;
+  background-color: $content_bg_color;
+	
+  @media (min-width: $breakpoint-tablet) {
+    & {
+      margin: 1em;
+      border: 0.5em solid $title_bg_color;
+    }
+  }
+}
+
+header {
+  padding-bottom: 2em;
+}
+
+div {
+  &.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    article {
+      flex: 3;
+    }
+    .etiquette {
+      flex: 2;
+      display: flex;
+      align-items: center;
+      margin: 0.5em;
+      img {
+        max-width: 100%;
+      }
+    }
+    .metrics {
+      flex: 2;
+    }
+  }
+
+  /* logo */
+  &.logo span {
+    color: $logo_bg_color;
+    display: block;
+
+    &.first-line {
+      font-size: 2em;
+      line-height: 67px;
+    }
+
+    &.second-line {
+      font-size: 0.84em;
+      line-height: 16px;
+      margin-left: 2px;
+    }
+
+	@media (min-width: $breakpoint-tablet) {
+  	  &.first-line {
+        font-size: 5em;
+        line-height: 168px;
+  	  }
+
+  	  &.second-line {
+        font-size: 2em;
+        line-height: 58px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+.clear {
+  margin-top: 2em;
+}
+.indent {
+  margin: 0.5em;
+}
+
+a,a:visited,a:hover,a:active {
+  color: $text_color;
+  text-decoration: none;
+}
+
+nav {
+  a {
+    line-height: 2em;
+    padding: 0 1em;
+    display: block;
+  }
+
+  &.pagination {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+    a {
+      background-color: $title_bg_color;
+    }
+  }
+
+  &#main {
+    font-size: 1em;
+    flex: 0 1 auto;
+    text-align: right;
+
+    @media (min-width: $breakpoint-tablet) {
+      font-size: 2em;
+    }
+  }
+}
+
+ul {
+  &.line {
+    display: flex;
+    vertical-align: middle;
+    flex-wrap: wrap;
+
+    li {
+      flex: 1 1 350px;
+      margin: 0.5em;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &.vertical li {
+    padding-bottom: 0.5em;
+  }
+}
+
+article {
+  padding: 2em 0;
+
+  .wrapper {
+    flex-direction: column;
+    @media only screen and (min-width: $breakpoint-tablet) {
+  	  flex-direction: row;
+    }
+  }
+
+  h1 {
+    display: inline;
+    line-height: 2em;
+  }
+
+  .title {
+    background-color: $title_bg_color;
+    display: inline-block;
+    padding-right: 0.5em;
+  }
+
+  &.recipe .title {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* h1 is the HOPENSTOCK text */
+h1 {
+  flex: 2;
+}
+
+h2,h3 {
+  display: inline;
+  line-height: 2em;
+}
+
+table {
+  width: 100%;
+  th {
+    padding: 0.25em;
+    background: $title_bg_color;
+    &:first-child {
+      text-align: left;
+    }
+  }
+  tr {
+    text-align: center;
+    &:first-child th {
+      &:first-child {
+        border-top-left-radius: $radius;
+      }
+      &:last-child {
+        border-top-right-radius: $radius;
+      }
+    }
+    &:last-child td {
+      border-bottom: 0;
+      &:first-child {
+        border-bottom-left-radius: $radius;
+      }
+      &:last-child {
+        border-bottom-right-radius: $radius;
+      }
+    }
+  }
+  td {
+    padding: 0.25em;
+    &:first-child {
+      text-align: left;
+      border-left: 0;
+    }
+  }
+}
+
+
