@@ -2,15 +2,22 @@
 ---
 
 // Colors
-$bg_color: #60b2fa;
-$text_color: #d4e7e9;
-$content_bg_color: #4c5f66;
-$title_bg_color: rgba(255, 255, 255, 0.2);
-$logo_bg_color: #f6f6f6;
+$bg_color: #636b46;
+$text_color: #373f27;
+$content_bg_color: #e9e7da;
+$title_bg_color: #cda34f;
+$logo_bg_color: #373f27;
+
+// $bg_color: #60b2fa;
+// $text_color: #d4e7e9;
+// $content_bg_color: #4c5f66;
+// $title_bg_color: rgba(255, 255, 255, 0.2);
+// $logo_bg_color: #f6f6f6;
+
 $radius: 3px;
 
 // Breakpoints
-$breakpoint-tablet: 768px
+$breakpoint-tablet: 768px;
 
 html {
   background-color: $bg_color;
