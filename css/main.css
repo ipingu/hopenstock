@@ -106,10 +106,6 @@ li {
     transition: all 0.2s; 
 }
 
-p {
-  margin: 0.5em;
-}
-
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -160,6 +156,10 @@ div.logo span.second-line {
   margin-top: 2em;
 }
 
+.indent {
+  margin: 0.5em;
+}
+
 a, a:visited, a:hover, a:active {
   color: #d4e7e9;
   text-decoration: none;
@@ -187,7 +187,7 @@ nav.pagination a {
 
 /* Logo magic */
 div.logo span {
-    color: rgb(96, 178, 250);
+    color: rgb(246, 246, 246);
     display: block;
 }
 
@@ -239,7 +239,6 @@ div.wrapper .metrics {
     flex: 2;
 }
 
-
 /* article / recipe */
 
 article {
@@ -250,7 +249,7 @@ article .wrapper {
     flex-direction: column;
 }
 
-article h1 {
+article h1,h2,h3 {
     display: inline;
     line-height: 2em;
 }
@@ -258,6 +257,7 @@ article h1 {
 article .title {
     background-color: rgba(255, 255, 255, 0.2);
     display: inline-block;
+    padding-right: 0.5em;
 }
 
 article.recipe .title {
@@ -265,6 +265,10 @@ article.recipe .title {
   text-align: center;
 }
 
+/* Vertical list */
+ul.vertical li {
+  padding-bottom: 0.5em;
+}
 
 /* for tables */
 table {

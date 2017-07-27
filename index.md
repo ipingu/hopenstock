@@ -11,8 +11,9 @@ title: hopenstock
     	</h1>
     	<span class="date">{{ post.date | date_to_long_string }}</span>
     </div>
-    {{ post.content }}
-  	
+    <div class="indent">
+      {{ post.excerpt }}
+    </div>
   </article>
   {% endfor %}
 </section>
