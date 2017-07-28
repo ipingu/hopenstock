@@ -2,11 +2,13 @@
 ---
 
 // Colors
-$bg_color: #636b46;
+$bg_color: #4a443b;
 $text_color: #373f27;
 $content_bg_color: #e9e7da;
-$title_bg_color: #cda34f;
+$title_bg_color: #ffffff;
 $logo_bg_color: #373f27;
+$font_family_title: 'Fjalla One', sans-serif;
+$font_family_text: 'Voltaire', sans-serif;
 
 // $bg_color: #60b2fa;
 // $text_color: #d4e7e9;
@@ -26,7 +28,8 @@ html {
 body {
   color: $text_color;
   background-color: $content_bg_color;
-	
+  font-family: $font_family_text;
+
   @media (min-width: $breakpoint-tablet) {
     & {
       margin: 1em;
@@ -63,6 +66,7 @@ div {
   /* logo */
   &.logo {
     margin: 5px;
+    font-family: $font_family_title;
 
     span {
       color: $logo_bg_color;
@@ -99,7 +103,7 @@ div {
   margin-top: 2em;
 }
 .indent {
-  margin: 0.5em;
+  margin: 0.25em;
 }
 
 a,a:visited,a:hover,a:active {
@@ -183,6 +187,10 @@ article {
 }
 
 /* h1 is the HOPENSTOCK text */
+h1,h2,h3 {
+	font-family: $font_family_title;
+}
+
 h1 {
   flex: 2;
 }
