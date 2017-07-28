@@ -6,9 +6,9 @@ title: hopenstock
   {% for post in site.posts %}
   <article>
   	<div class="title">
-  		<h1>
+  		<h2>
     		<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-    	</h1>
+    	</h2>
     	<span class="date">{{ post.date | date_to_long_string }}</span>
     </div>
     <div class="indent">
