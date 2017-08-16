@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Fruity Loops</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Erik</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>7.0000000</BATCH_SIZE>
+ <BOIL_SIZE>8.4800000</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>70.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>East Kent Goldings (EKG)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>5.0000000</ALPHA>
+ <AMOUNT>0.0037500</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>40.0000000</TIME>
+ <NOTES>Also known as Canterbury Hops by some, although others will dispute this fact. East Kent Goldings gracefully defines the English Pale Ales and Ales produced by the region, it is quintessentially English.
+Used for: English Ale, Porter, Scottish and Irish Ale, Stout, Strong Ale, ESB, Saison, Barleywine.
+Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor
+Substitutes: First Gold, Fuggles, other Golding varieties, Progress, Target, and Whitbread Golding
+Storage: Good/Fair 965-80% AA after 6 months at 20 C)
+4-7% AA / 1.9-2.8% Beta</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>3.75 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>40.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>East Kent Goldings (EKG)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>5.0000000</ALPHA>
+ <AMOUNT>0.0030000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>15.0000000</TIME>
+ <NOTES>Also known as Canterbury Hops by some, although others will dispute this fact. East Kent Goldings gracefully defines the English Pale Ales and Ales produced by the region, it is quintessentially English.
+Used for: English Ale, Porter, Scottish and Irish Ale, Stout, Strong Ale, ESB, Saison, Barleywine.
+Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor
+Substitutes: First Gold, Fuggles, other Golding varieties, Progress, Target, and Whitbread Golding
+Storage: Good/Fair 965-80% AA after 6 months at 20 C)
+4-7% AA / 1.9-2.8% Beta</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>3.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Pilsner (2 row) (Gambrinus)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.6999994</AMOUNT>
+ <YIELD>82.0000000</YIELD>
+ <COLOR>3.1520000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Canada</ORIGIN>
+ <SUPPLIER>Gambrinus</SUPPLIER>
+ <NOTES>Processed from the finest Canadian two-row available, this very low protein base malt may be used in all types of European style beers.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>110.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.5000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>700.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0377200</POTENTIAL>
+ <DISPLAY_COLOR>3.2 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt (Gambrinus)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.6999994</AMOUNT>
+ <YIELD>84.0000000</YIELD>
+ <COLOR>4.5310000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Canada</ORIGIN>
+ <SUPPLIER>Gambrunus</SUPPLIER>
+ <NOTES>Processed from the finest Canadian wheat available, this wheat malt may be used in wheat beers of all types.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>74.0000000</DIASTATIC_POWER>
+ <PROTEIN>12.0000000</PROTEIN>
+ <MAX_IN_BATCH>60.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>700.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0386400</POTENTIAL>
+ <DISPLAY_COLOR>4.5 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ 
+ <YEASTS>
+<YEAST>
+ <NAME>Safbrew Wheat</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Wheat</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.0502753</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>DCL/Fermentis</LABORATORY>
+ <PRODUCT_ID>WB-06</PRODUCT_ID>
+ <MIN_TEMPERATURE>15.0000000</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>23.8888889</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>68.0000000</ATTENUATION>
+ <NOTES>A specialty yeast for wheat beer fermentation.  The yeast produces a subtle estery and phenlol flavor typical of wheat beers.</NOTES>
+ <BEST_FOR>Wheat beers</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>50.28 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>15.0 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>23.9 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>06/03/11</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>Fruit Beer</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Fruit Beer</CATEGORY>
+ <CATEGORY_NUMBER>20</CATEGORY_NUMBER>
+ <STYLE_LETTER>A</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Mixed</TYPE>
+ <OG_MIN>1.0300000</OG_MIN>
+ <OG_MAX>1.1100000</OG_MAX>
+ <FG_MIN>1.0040000</FG_MIN>
+ <FG_MAX>1.0240000</FG_MAX>
+ <IBU_MIN>5.0000000</IBU_MIN>
+ <IBU_MAX>70.0000000</IBU_MAX>
+ <COLOR_MIN>5.9100000</COLOR_MIN>
+ <COLOR_MAX>98.5000000</COLOR_MAX>
+ <CARB_MIN>2.0000000</CARB_MIN>
+ <CARB_MAX>3.0000000</CARB_MAX>
+ <ABV_MAX>12.0000000</ABV_MAX>
+ <ABV_MIN>2.5000000</ABV_MIN>
+ <NOTES>A harmonious marriage of fruit and beer. The key attributes of the underlying style will be different with the addition of fruit; do not expect the base beer to taste the same as the unadulterated version. Judge the beer based on the pleasantness and balance of the resulting combination. Overall balance is the key to presenting a wellmade fruit beer. The fruit should complement the original style and not overwhelm it. The brewer should recognize that some combinations of base beer styles and fruits work well together while others do not make for harmonious combinations. THE ENTRANT MUST SPECIFY THE UNDERLYING BEER STYLE AS WELL AS THE TYPE OF FRUIT(S) USED. IF THIS BEER IS BASED ON A CLASSIC STYLE (E.G., BLONDE ALE) THEN THE SPECIFIC STYLE MUST BE SPECIFIED. CLASSIC STYLES DO NOT HAVE TO BE CITED (E.G., &#8220;PORTER&#8221; OR &#8220;WHEAT ALE&#8221; IS ACCEPTABLE). THE TYPE OF FRUIT(S) MUST ALWAYS BE SPECIFIED. If the base beer is a classic style, the original style should come through in aroma and flavor. Note that fruitbased lambics should be entered in the Fruit Lambic category (17F), while other fruit-based Belgian specialties should be entered in the Belgian Specialty Ale category (16E). Aged fruit may sometimes have flavor and aroma characteristics similar to Sauternes, Sherry or Tokaj, but a beer with a quality such as this should make a special claim (e.g., amontillado, fino, botrytis). Beer with chile peppers should be entered in the Spice/Herb/Vegetable Beer category (21A).</NOTES>
+ <PROFILE>Aroma: The distinctive aromatics associated with the particular fruit(s) should be noticeable in the aroma; however, note that some fruit (e.g., raspberries, cherries) have stronger aromas and are more distinctive than others (e.g., blueberries, strawberries)&#8212;allow for a range of fruit character and intensity from subtle to aggressive. The fruit character should be pleasant and supportive, not artificial and inappropriately overpowering (considering the character of the fruit) nor should it have defects such as oxidation. As with all specialty beers, a proper fruit beer should be a harmonious balance of the featured fruit(s) with the underlying beer style. Aroma hops, yeast by-products and malt components of the underlying beer may not be as noticeable when fruit are present. These components (especially hops) may also be intentionally subdued to allow the fruit character to come through in the final presentation. If the base beer is an ale then a non-specific fruitiness and/or other fermentation by-products such as diacetyl may be present as appropriate for warmer fermentations. If the base beer is a lager, then overall less fermentation byproducts would be appropriate. Some malt aroma may be desirable, especially in dark styles. Hop aroma may be absent or balanced with fruit, depending on the style. The fruit should add an extra complexity to the beer, but not be so prominent as to unbalance the resulting presentation. Some tartness may be present if naturally occurring in the particular fruit(s), but should not be inappropriately intense.
+Appearance: Appearance should be appropriate to the base beer being presented and will vary depending on the base beer. For lighter-colored beers with fruits that exhibit distinctive colors, the color should be noticeable. Note that the color of fruit in beer is often lighter than the flesh of the fruit itself and may take on slightly different shades. Fruit beers may have some haze or be clear, although haze is a generally undesirable. The head may take on some of the color of the fruit.
+Flavor: As with aroma, the distinctive flavor character associated with the particular fruit(s) should be noticeable, and may range in intensity from subtle to aggressive. The balance of fruit with the underlying beer is vital, and the fruit character should not be so artificial and/or inappropriately overpowering as to suggest a fruit juice drink. Hop bitterness, flavor, malt flavors, alcohol content, and fermentation by-products, such as esters or diacetyl, should be appropriate to the base beer and be harmonious and balanced with the distinctive fruit flavors present. Note that these components (especially hops) may be intentionally subdued to allow the fruit character to come through in the final presentation. Some tartness may be present if naturally occurring in the particular fruit(s), but should not be inappropriately intense. Remember that fruit generally add flavor not sweetness to fruit beers. The sugar found in fruit is usually fully fermented and contributes to lighter flavors and a drier finish than might be expected for the declared base style. However, residual sweetness is not necessarily a negative characteristic unless it has a raw, unfermented quality.
+Mouthfeel: Mouthfeel may vary depending on the base beer selected and as appropriate to that base beer. Body and carbonation levels should be appropriate to the base beer style being presented. Fruit generally adds fermentables that tend to thin out the beer; the resulting beer may seem lighter than expected for the declared base style.</PROFILE>
+ <INGREDIENTS>Vary by base style.  OG, FG, IBUs, SRM and ABV will vary depending on the underlying base beer, but the fruit will often be reflected in the color.</INGREDIENTS>
+ <EXAMPLES>New Glarus Belgian Red and Raspberry Tart, Bell&#8217;s Cherry Stout, Dogfish Head Aprihop, Great Divide Wild Raspberry Ale, Founders R&#252;b&#230;us, Ebulum Elderberry Black Ale, Stiegl Radler, Weyerbacher Raspberry Imperial Stout, Abita Purple Haze, Melbourne Apricot Beer and Strawberry Beer, Saxer Lemon Lager, Magic Hat #9, Grozet Gooseberry and Wheat Ale, Pyramid Apricot Ale, Dogfish Head Fort</EXAMPLES>
+ <DISPLAY_OG_MIN>1.030 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.110 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.004 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.024 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>5.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>98.5 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1,030-1,110 SG</OG_RANGE>
+ <FG_RANGE>1,004-1,024 SG</FG_RANGE>
+ <IBU_RANGE>5,0-70,0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2,00-3,00 Vols</CARB_RANGE>
+ <COLOR_RANGE>5,9-98,5 EBC</COLOR_RANGE>
+ <ABV_RANGE>2,50-12,00 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>02 - 7L, 2.5L Top Up, No Sparge</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>8.4800000</BOIL_SIZE>
+ <BATCH_SIZE>7.0000000</BATCH_SIZE>
+ <TUN_VOLUME>9.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.5359200</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>14.1509434</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.0000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>2.5000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES></NOTES>
+ <DISPLAY_BOIL_SIZE>8.48 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>7.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>9.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4535.92 g</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.00 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>2.50 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>01 - No Sparge, Full Body</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2000000</GRAIN_TEMP>
+ <TUN_TEMP>22.2000000</TUN_TEMP>
+ <SPARGE_TEMP>75.6000000</SPARGE_TEMP>
+ <PH>5.2000000</PH>
+ <TUN_WEIGHT>160.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>TRUE</EQUIP_ADJUST>
+ <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4535.92 g</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Saccharification</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>7.3820360</INFUSE_AMOUNT>
+ <STEP_TIME>60.0000000</STEP_TIME>
+ <STEP_TEMP>66.7000000</STEP_TEMP>
+ <RAMP_TIME>10.0000000</RAMP_TIME>
+ <END_TEMP>66.7000000</END_TEMP>
+ <DESCRIPTION>Add 7,38 l of water at 78,1 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>5,273 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>78.1 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>7.38 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>0.0000000</INFUSE_AMOUNT>
+ <STEP_TIME>10.0000000</STEP_TIME>
+ <STEP_TEMP>75.5555556</STEP_TEMP>
+ <RAMP_TIME>7.0000000</RAMP_TIME>
+ <END_TEMP>75.5555556</END_TEMP>
+ <DESCRIPTION>Heat to 75,6 C over 7 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>5,273 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>48.9 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>75.6 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.00 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES>Mousse ros&#233;e, couleur rose / rouge, gazeification agreable, desalterant malgr&#233; un l&#233;ger c&#244;t&#233; sucr&#233; sur la fin.
+
+Le cold crash n&#39;a pas particulierement apport&#233; de limpidit&#233;.</TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0050000</FG>
+ <CARBONATION>2.7000000</CARBONATION>
+ <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+ <PRIMARY_AGE>14.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>14.0000000</AGE>
+ <AGE_TEMP>19.0000000</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 45,11 g Table Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Table Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>0.9099181</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>19/05/17</DATE>
+ <EST_OG>1.045 SG</EST_OG>
+ <EST_FG>1.013 SG</EST_FG>
+ <EST_COLOR>6.6 EBC</EST_COLOR>
+ <IBU>9.7 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>4.1 %</EST_ABV>
+ <ABV>5.4 %</ABV>
+ <ACTUAL_EFFICIENCY>72.2 %</ACTUAL_EFFICIENCY>
+ <CALORIES>420.4 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>7.00 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>8.48 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.005 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>18.3 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>19.0 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

@@ -184,6 +184,11 @@ article {
     background-color: $title_bg_color;
     display: inline-block;
     padding-right: 0.5em;
+
+    h2,h3 {
+      display: inline;
+      line-height: 2em;
+    }
   }
 
   &.recipe .title {
@@ -200,11 +205,6 @@ h1,h2,h3 {
 
 h1 {
   flex: 2;
-}
-
-h2,h3 {
-  display: inline;
-  line-height: 2em;
 }
 
 table {
