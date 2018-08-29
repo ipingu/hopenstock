@@ -3,7 +3,7 @@ layout: recipe
 title: Fantomalt
 categories: recipes saison
 recipe_id: fantomalt
-image: fantomalt.png
+image: fantomalt.jpg
 ---
 Une bière brassée en clonant une précédente recette, sans enlever 400g de grain de la recette initiale, créant une belle surprise lors de la vérification de l'OG pre-boil.
 
