@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Bu&#233;e d&#39;hibiscus</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Erik</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>5.7000000</BATCH_SIZE>
+ <BOIL_SIZE>6.6280000</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>60.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Cascade</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>5.5000000</ALPHA>
+ <AMOUNT>0.0050000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>40.0000000</TIME>
+ <NOTES>A hops with Northern Brewers Heritage
+Used for: American ales and lagers
+Aroma: Strong spicy, floral, grapefruit character
+Substitutes: Centennial
+Examples: Sierra Nevada Pale Ale, Anchor Liberty Ale</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>5.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>40.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>Cascade</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>5.5000000</ALPHA>
+ <AMOUNT>0.0050000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>10.0000000</TIME>
+ <NOTES>A hops with Northern Brewers Heritage
+Used for: American ales and lagers
+Aroma: Strong spicy, floral, grapefruit character
+Substitutes: Centennial
+Examples: Sierra Nevada Pale Ale, Anchor Liberty Ale</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>6.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>5.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Pilsner (2 row) (Gambrinus)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.9299992</AMOUNT>
+ <YIELD>82.0000000</YIELD>
+ <COLOR>3.1520000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Canada</ORIGIN>
+ <SUPPLIER>Gambrinus</SUPPLIER>
+ <NOTES>Processed from the finest Canadian two-row available, this very low protein base malt may be used in all types of European style beers.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>110.0000000</DIASTATIC_POWER>
+ <PROTEIN>10.5000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>930.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0377200</POTENTIAL>
+ <DISPLAY_COLOR>3.2 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Wheat Malt, Bel</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.6299995</AMOUNT>
+ <YIELD>81.0000000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Belgium</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Malted wheat for use in Wheat beers</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>74.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.5000000</PROTEIN>
+ <MAX_IN_BATCH>60.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>630.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0372600</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Candi Sugar, Clear</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Sugar</TYPE>
+ <AMOUNT>0.0600000</AMOUNT>
+ <YIELD>78.3000000</YIELD>
+ <COLOR>0.9850000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Belgium</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Crystalized Candi Sugar (Sucrose) used in many Belgian Tripels, Dubbels, and holiday ales.  Adds head retention and sweet aroma to beer.  Darker variants also add color.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>20.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>60.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0360180</POTENTIAL>
+ <DISPLAY_COLOR>1.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Dried Hibiscus</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Herb</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.030000</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES></NOTES>
+ <DISPLAY_AMOUNT>30.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 l</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Coriander Seed</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Spice</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.005000</AMOUNT>
+ <TIME>5.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Belgian Wit</USE_FOR>
+ <NOTES>Used in Belgian Wit, Whites, and Holiday ales.  Very good when used in light wheat ales.  Often used with Bitter Orange Peel.</NOTES>
+ <DISPLAY_AMOUNT>5.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>5.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>18.93 l</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>SafBrew Specialty Ale</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.0236590</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>DCL/Fermentis</LABORATORY>
+ <PRODUCT_ID>T-58</PRODUCT_ID>
+ <MIN_TEMPERATURE>15.5555556</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>22.2222222</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>73.0000000</ATTENUATION>
+ <NOTES>Estery, somewhat spicy ale yeast. Solid yeast formation at end of fermentation.  Widely used for bottle and cask conditioning.</NOTES>
+ <BEST_FOR>Complex ales.</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>23.66 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>15.6 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>22.2 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>14/06/03</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>American Wheat or Rye Beer</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Light Hybrid Beer</CATEGORY>
+ <CATEGORY_NUMBER>6</CATEGORY_NUMBER>
+ <STYLE_LETTER>D</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Mixed</TYPE>
+ <OG_MIN>1.0400000</OG_MIN>
+ <OG_MAX>1.0550000</OG_MAX>
+ <FG_MIN>1.0080000</FG_MIN>
+ <FG_MAX>1.0130000</FG_MAX>
+ <IBU_MIN>15.0000000</IBU_MIN>
+ <IBU_MAX>30.0000000</IBU_MAX>
+ <COLOR_MIN>5.9100000</COLOR_MIN>
+ <COLOR_MAX>11.8200000</COLOR_MAX>
+ <CARB_MIN>2.3000000</CARB_MIN>
+ <CARB_MAX>2.6000000</CARB_MAX>
+ <ABV_MAX>5.5000000</ABV_MAX>
+ <ABV_MIN>4.0000000</ABV_MIN>
+ <NOTES>Refreshing wheat or rye beers that can display more hop character and less yeast character than their German cousins. Different variations exist, from an easy-drinking fairly sweet beer to a dry, aggressively hopped beer with a strong wheat or rye flavor. Dark versions approximating dunkelweizens (with darker, richer malt flavors in addition to the color) should be entered in the Specialty Beer category. THE BREWER SHOULD SPECIFY IF RYE IS USED; IF NO DOMINANT GRAIN IS SPECIFIED, WHEAT WILL BE ASSUMED.</NOTES>
+ <PROFILE>Aroma: Low to moderate grainy wheat or rye character. Some malty sweetness is acceptable. Esters can be moderate to none, although should reflect American yeast strains. The clove and banana aromas common to German hefeweizens are inappropriate. Hop aroma may be low to moderate, and can have either a citrusy American or a spicy or floral noble hop character. Slight crisp sharpness is optional. No diacetyl.
+Appearance: Usually pale yellow to gold. Clarity may range from brilliant to hazy with yeast approximating the German hefeweizen style of beer. Big, long-lasting white head.
+Flavor: Light to moderately strong grainy wheat or rye flavor, which can linger into the finish. Rye versions are richer and spicier than wheat. May have a moderate malty sweetness or finish quite dry. Low to moderate hop bitterness, which sometimes lasts into the finish. Low to moderate hop flavor (citrusy American or spicy/floral noble). Esters can be moderate to none, but should not take on a German Weizen character (banana). No clove phenols, although a light spiciness from wheat or rye is acceptable. May have a slightly crisp or sharp finish. No diacetyl.
+Mouthfeel: Medium-light to medium body. Medium-high to high carbonation. May have a light alcohol warmth in stronger examples.</PROFILE>
+ <INGREDIENTS>Clean American ale yeast, but also lager. up to 50+% wheat malt. American/noble hops. American Rye Beers can follow the same general guidelines, substituting rye for some or all of the wheat. Other base styles (e.g., IPA, stout) with a noticeable rye character should be entered in the Specialty Beer category (23).</INGREDIENTS>
+ <EXAMPLES>Bell&#39;s Oberon, Harpoon UFO Hefeweizen, Three Floyds Gumballhead, Pyramid Hefe-Weizen, Widmer Hefeweizen, Sierra Nevada Unfiltered Wheat Beer, Anchor Summer Beer, Redhook Sunrye, Real Ale Full Moon Pale Rye</EXAMPLES>
+ <DISPLAY_OG_MIN>1.040 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.055 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.008 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.013 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>5.9 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>11.8 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1,040-1,055 SG</OG_RANGE>
+ <FG_RANGE>1,008-1,013 SG</FG_RANGE>
+ <IBU_RANGE>15,0-30,0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2,30-2,60 Vols</CARB_RANGE>
+ <COLOR_RANGE>5,9-11,8 EBC</COLOR_RANGE>
+ <ABV_RANGE>4,00-5,50 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>02 - 6L, 1L Top Up, No Sparge</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>6.6280000</BOIL_SIZE>
+ <BATCH_SIZE>5.7000000</BATCH_SIZE>
+ <TUN_VOLUME>9.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.5359200</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>10.5612553</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.0000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>1.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES></NOTES>
+ <DISPLAY_BOIL_SIZE>6.63 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>5.70 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>9.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4535.92 g</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.00 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>1.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>01 - No Sparge, Full Body</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2000000</GRAIN_TEMP>
+ <TUN_TEMP>22.2000000</TUN_TEMP>
+ <SPARGE_TEMP>75.6000000</SPARGE_TEMP>
+ <PH>5.2000000</PH>
+ <TUN_WEIGHT>160.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>TRUE</EQUIP_ADJUST>
+ <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4535.92 g</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Saccharification</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>7.1902687</INFUSE_AMOUNT>
+ <STEP_TIME>60.0000000</STEP_TIME>
+ <STEP_TEMP>66.7000000</STEP_TEMP>
+ <RAMP_TIME>10.0000000</RAMP_TIME>
+ <END_TEMP>66.7000000</END_TEMP>
+ <DESCRIPTION>Add 7,19 l of water at 78,8 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>4,609 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>78.8 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>7.19 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>0.0000000</INFUSE_AMOUNT>
+ <STEP_TIME>10.0000000</STEP_TIME>
+ <STEP_TEMP>75.5555556</STEP_TEMP>
+ <RAMP_TIME>7.0000000</RAMP_TIME>
+ <END_TEMP>75.5555556</END_TEMP>
+ <DESCRIPTION>Heat to 75,6 C over 7 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>4,609 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>48.9 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>75.6 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.00 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES>Aucune mesure de faite... Il faut croire que tout s&#39;est bien pass&#233;.
+Aussi, possible inversion sur le grammage entre le bl&#233; et le pilsner.</NOTES>
+ <TASTE_NOTES>M&#233;rite quelques semaines de conservation avant d&#233;gustation pour plus de douceur.
+La couleur est rouge sang, ne pas descendre en dessous de 10 minutes de boil (la couleur se r&#233;pand au bout de 7-10 minutes).</TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0460000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+ <PRIMARY_AGE>14.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>14.0000000</AGE>
+ <AGE_TEMP>17.0000000</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 31,30 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>22/05/17</DATE>
+ <EST_OG>1.055 SG</EST_OG>
+ <EST_FG>1.012 SG</EST_FG>
+ <EST_COLOR>7.7 EBC</EST_COLOR>
+ <IBU>15.5 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.6 %</EST_ABV>
+ <ABV>4.7 %</ABV>
+ <ACTUAL_EFFICIENCY>174.5 %</ACTUAL_EFFICIENCY>
+ <CALORIES>427.1 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>5.70 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>6.63 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.046 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>18.3 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>17.0 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>

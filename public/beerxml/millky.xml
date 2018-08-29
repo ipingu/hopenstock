@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Milkky</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Erik</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>3.8000000</BATCH_SIZE>
+ <BOIL_SIZE>5.4520000</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>65.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Columbus/Tomahawk/Zeus (CTZ)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>U.S.</ORIGIN>
+ <ALPHA>15.5000000</ALPHA>
+ <AMOUNT>0.0020000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>60.0000000</TIME>
+ <NOTES>Engineered Centennial Substitute - High alpha bittering hops.
+Used for: IPA, American Pale Ale, Stout, Lager, Barley Wine
+Aroma: Pungent, spicy. Strongly aromatic, but clean tasting bitterness
+Substitutes: Other CTZ, Galena, Chinook, Nugget, Target (U.K.), Northern Brewer (Germany)
+Storage: Poor/Very Poor (45-65% AA after 6 months at 20 C)
+14-16.5% AA / 4-5% Beta</NOTES>
+ <TYPE>Bittering</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.5000000</BETA>
+ <HSI>52.0000000</HSI>
+ <DISPLAY_AMOUNT>2.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 min</DISPLAY_TIME>
+</HOP>
+<HOP>
+ <NAME>East Kent Goldings (EKG)</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <ALPHA>5.0000000</ALPHA>
+ <AMOUNT>0.0050000</AMOUNT>
+ <USE>Boil</USE>
+ <TIME>10.0000000</TIME>
+ <NOTES>Also known as Canterbury Hops by some, although others will dispute this fact. East Kent Goldings gracefully defines the English Pale Ales and Ales produced by the region, it is quintessentially English.
+Used for: English Ale, Porter, Scottish and Irish Ale, Stout, Strong Ale, ESB, Saison, Barleywine.
+Aroma: Floral, aromatic, earthy, slightly sweet spicy flavor
+Substitutes: First Gold, Fuggles, other Golding varieties, Progress, Target, and Whitbread Golding
+Storage: Good/Fair 965-80% AA after 6 months at 20 C)
+4-7% AA / 1.9-2.8% Beta</NOTES>
+ <TYPE>Both</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>3.5000000</BETA>
+ <HSI>35.0000000</HSI>
+ <DISPLAY_AMOUNT>5.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>10.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>Pale Malt, 2 row (Gambrinus)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.7999993</AMOUNT>
+ <YIELD>82.0000000</YIELD>
+ <COLOR>3.9400000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Canada</ORIGIN>
+ <SUPPLIER>Gambrinus</SUPPLIER>
+ <NOTES>Gambrinus brewers pale malt, suitable for use as a base for many beers.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.5000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>800.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0377200</POTENTIAL>
+ <DISPLAY_COLOR>3.9 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pale Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Chocolate Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.0749999</AMOUNT>
+ <YIELD>60.0000000</YIELD>
+ <COLOR>689.5000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Dark malt that gives a rich red or brown color and nutty flavor.
+Use for: Brown ales, porters, some stouts
+Maintains some malty flavor, not as dark as roasted malt.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.2000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>75.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0276000</POTENTIAL>
+ <DISPLAY_COLOR>689.5 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Munich Malt - 10L</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.0749999</AMOUNT>
+ <YIELD>77.0000000</YIELD>
+ <COLOR>19.7000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Malty-sweet flavor characteristic and adds a slight orange color to the beer.
+Does not contribute signficantly to body or head retention.
+Use for: Bock, Porter, Marzen, Oktoberfest beers</NOTES>
+ <COARSE_FINE_DIFF>2.8000000</COARSE_FINE_DIFF>
+ <MOISTURE>5.0000000</MOISTURE>
+ <DIASTATIC_POWER>50.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.5000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>75.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0354200</POTENTIAL>
+ <DISPLAY_COLOR>19.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Amber Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Roasted Barley (Thomas Fawcett)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>0.0749999</AMOUNT>
+ <YIELD>74.0000000</YIELD>
+ <COLOR>1199.7300000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>United Kingdom</ORIGIN>
+ <SUPPLIER>Thomas Fawcett &#38; Sons</SUPPLIER>
+ <NOTES>Deep roasted barley - adds the dry bitter flavor characteristic of Irish Stouts.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>3.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.0000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>75.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0340400</POTENTIAL>
+ <DISPLAY_COLOR>1199.7 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Milk Sugar (Lactose)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Sugar</TYPE>
+ <AMOUNT>0.0849999</AMOUNT>
+ <YIELD>76.1000000</YIELD>
+ <COLOR>0.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Not fully fermentable, so it adds lasting sweetness. Lactose can be added to lend  sweetness to Sweet Stouts and Porters.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>120.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>85.00 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <POTENTIAL>1.0350060</POTENTIAL>
+ <DISPLAY_COLOR>0.0 EBC</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ 
+ <YEASTS>
+<YEAST>
+ <NAME>Safale American </NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Ale</TYPE>
+ <FORM>Dry</FORM>
+ <AMOUNT>0.0502753</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY>DCL/Fermentis</LABORATORY>
+ <PRODUCT_ID>US-05</PRODUCT_ID>
+ <MIN_TEMPERATURE>15.0000000</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>23.8888889</MAX_TEMPERATURE>
+ <FLOCCULATION>Medium</FLOCCULATION>
+ <ATTENUATION>76.5000000</ATTENUATION>
+ <NOTES>American ale yeast that produces well balanced beers with low diacetyl and a very clean, crisp end palate.</NOTES>
+ <BEST_FOR>American ale, other clean finish ales</BEST_FOR>
+ <MAX_REUSE>5</MAX_REUSE>
+ <TIMES_CULTURED>0</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>50.28 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>15.0 C</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>23.9 C</DISP_MAX_TEMP>
+ <INVENTORY>0.0 pkg</INVENTORY>
+ <CULTURE_DATE>06/03/11</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ 
+ <STYLE>
+ <NAME>Sweet Stout</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Stout</CATEGORY>
+ <CATEGORY_NUMBER>13</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0440000</OG_MIN>
+ <OG_MAX>1.0600000</OG_MAX>
+ <FG_MIN>1.0120000</FG_MIN>
+ <FG_MAX>1.0240000</FG_MAX>
+ <IBU_MIN>20.0000000</IBU_MIN>
+ <IBU_MAX>40.0000000</IBU_MAX>
+ <COLOR_MIN>59.1000000</COLOR_MIN>
+ <COLOR_MAX>78.8000000</COLOR_MAX>
+ <CARB_MIN>2.0000000</CARB_MIN>
+ <CARB_MAX>2.4000000</CARB_MAX>
+ <ABV_MAX>6.0000000</ABV_MAX>
+ <ABV_MIN>4.0000000</ABV_MIN>
+ <NOTES>A very dark, sweet, full-bodied, slightly roasty ale. Often tastes like sweetened espresso. An English style of stout. Historically known as &#8220;Milk&#8221; or &#8220;Cream&#8221; stouts, legally this designation is no longer permitted in England (but is acceptable elsewhere). The &#8220;milk&#8221; name is derived from the use of lactose, or milk sugar, as a sweetener. Gravities are low in England, higher in exported and US products. Variations exist, with the level of residual sweetness, the intensity of the roast character, and the balance between the two being the variables most subject to interpretation.</NOTES>
+ <PROFILE>Aroma: Mild roasted grain aroma, sometimes with coffee and/or chocolate notes. An impression of cream-like sweetness often exists. Fruitiness can be low to moderately high. Diacetyl low to none. Hop aroma low to none.
+Appearance: Very dark brown to black in color. Can be opaque (if not, it should be clear). Creamy tan to brown head.
+Flavor: Dark roasted grains and malts dominate the flavor as in dry stout, and provide coffee and/or chocolate flavors. Hop bitterness is moderate (lower than in dry stout). Medium to high sweetness (often from the addition of lactose) provides a counterpoint to the roasted character and hop bitterness, and lasts into the finish. Low to moderate fruity esters. Diacetyl low to none. The balance between dark grains/malts and sweetness can vary, from quite sweet to moderately dry and somewhat roasty.
+Mouthfeel: Medium-full to full-bodied and creamy. Low to moderate carbonation. High residual sweetness from unfermented sugars enhances the full-tasting mouthfeel.</PROFILE>
+ <INGREDIENTS>The sweetness in most Sweet Stouts comes from a lower bitterness level than dry stouts and a high percentage of unfermentable dextrins. Lactose, an unfermentable sugar, is frequently added to provide additional residual sweetness. Base of pale malt, and may use roasted barley, black malt, chocolate malt, crystal malt, and adjuncts such as maize or treacle. High carbonate water is common.</INGREDIENTS>
+ <EXAMPLES>Mackeson&#39;s XXX Stout, Watney&#39;s Cream Stout, Farson&#8217;s Lacto Stout, St. Peter&#8217;s Cream Stout, Marston&#8217;s Oyster Stout, Sheaf Stout, Hitachino Nest Sweet Stout (Lacto), Samuel Adams Cream Stout, Left Hand Milk Stout, Widmer Snowplow Milk Stout</EXAMPLES>
+ <DISPLAY_OG_MIN>1.044 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.060 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.012 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.024 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>59.1 EBC</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>78.8 EBC</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1,044-1,060 SG</OG_RANGE>
+ <FG_RANGE>1,012-1,024 SG</FG_RANGE>
+ <IBU_RANGE>20,0-40,0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2,00-2,40 Vols</CARB_RANGE>
+ <COLOR_RANGE>59,1-78,8 EBC</COLOR_RANGE>
+ <ABV_RANGE>4,00-6,00 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>01 - 4L, No Sparge</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>5.4520000</BOIL_SIZE>
+ <BATCH_SIZE>3.8000000</BATCH_SIZE>
+ <TUN_VOLUME>9.0000000</TUN_VOLUME>
+ <TUN_WEIGHT>4.5359200</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>27.5128393</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>0.0000000</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES></NOTES>
+ <DISPLAY_BOIL_SIZE>5.45 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>3.80 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>9.00 l</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>4535.92 g</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 l</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 l</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.00 l</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 l</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>01 - No Sparge, Full Body</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2000000</GRAIN_TEMP>
+ <TUN_TEMP>22.2000000</TUN_TEMP>
+ <SPARGE_TEMP>75.6000000</SPARGE_TEMP>
+ <PH>5.2000000</PH>
+ <TUN_WEIGHT>160.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>TRUE</EQUIP_ADJUST>
+ <NOTES>Brew in a bag method where the full boil volume is mashed within the boil vessel and then the grains are withdrawn at the end of the mash.  No active sparging is required.  This is a medium body beer profile.</NOTES>
+ <DISPLAY_GRAIN_TEMP>22.2 C</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>22.2 C</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>75.6 C</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>4535.92 g</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Saccharification</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>6.4784907</INFUSE_AMOUNT>
+ <STEP_TIME>60.0000000</STEP_TIME>
+ <STEP_TEMP>66.7000000</STEP_TEMP>
+ <RAMP_TIME>10.0000000</RAMP_TIME>
+ <END_TEMP>66.7000000</END_TEMP>
+ <DESCRIPTION>Add 6,48 l of water at 78,7 C</DESCRIPTION>
+ <WATER_GRAIN_RATIO>6,320 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>78.7 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>66.7 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>6.48 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>0.0000000</INFUSE_AMOUNT>
+ <STEP_TIME>10.0000000</STEP_TIME>
+ <STEP_TEMP>75.5555556</STEP_TEMP>
+ <RAMP_TIME>7.0000000</RAMP_TIME>
+ <END_TEMP>75.5555556</END_TEMP>
+ <DESCRIPTION>Heat to 75,6 C over 7 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>6,320 l/kg</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 l</DECOCTION_AMT>
+ <INFUSE_TEMP>48.9 C</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>75.6 C</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.00 l</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES>Fermentation a 20&#176;C</NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0520000</OG>
+ <FG>1.0100000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+ <PRIMARY_AGE>14.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>14.0000000</AGE>
+ <AGE_TEMP>17.0000000</AGE_TEMP>
+ <CARBONATION_USED>Bottle with 20,13 g Corn Sugar</CARBONATION_USED>
+ <FORCED_CARBONATION>TRUE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>21.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>21.1 C</DISPLAY_CARB_TEMP>
+ <DATE>01/04/17</DATE>
+ <EST_OG>1.060 SG</EST_OG>
+ <EST_FG>1.018 SG</EST_FG>
+ <EST_COLOR>96.8 EBC</EST_COLOR>
+ <IBU>28.7 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>5.5 %</EST_ABV>
+ <ABV>5.5 %</ABV>
+ <ACTUAL_EFFICIENCY>55.3 %</ACTUAL_EFFICIENCY>
+ <CALORIES>484.7 kcal/l</CALORIES>
+ <DISPLAY_BATCH_SIZE>3.80 l</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>5.45 l</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.052 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.010 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>19.4 C</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>18.3 C</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>18.3 C</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>17.0 C</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>
