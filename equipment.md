@@ -48,11 +48,6 @@ title: equipment
 				<li>Embouteilleuse Emily</li>
 			</ul>
 			</div>
-      	</div>
 	</article>
-    
+
 </section>
-
-
-
-
