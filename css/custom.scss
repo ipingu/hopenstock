@@ -2,11 +2,11 @@
 ---
 
 // Colors
-$bg_color: #616264;
-$text_color: #243f41;
-$content_bg_color: #e9e7da;
-$title_bg_color: #ffffff;
-$logo_bg_color: #2a80b0;
+$bg_color: #f7f7f7;
+$text_color: #222;
+$content_bg_color: #fff;
+$title_bg_color: #ececec;
+$logo_bg_color: #222;
 $font_family_title: 'Fjalla One', sans-serif;
 $font_family_text: 'Voltaire', sans-serif;
 
@@ -33,13 +33,18 @@ body {
   @media (min-width: $breakpoint-tablet) {
     & {
       margin: 2em;
-      border: 0.5em solid $title_bg_color;
+      border: 0 solid $title_bg_color;
     }
   }
 }
 
 header {
   padding-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+  padding-top: 5em;
 }
 
 div {
@@ -113,7 +118,7 @@ a,a:visited,a:hover,a:active {
 nav {
   a {
     line-height: 2em;
-    padding: 0 1em;
+    padding: 0 0.5em;
     display: block;
     font-family: $font_family_title;
   }
@@ -210,6 +215,10 @@ h1,h2,h3 {
 
 h1 {
   flex: 2;
+}
+
+h2 {
+  padding-left: 0.5em;
 }
 
 table {
