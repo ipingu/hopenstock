@@ -1,7 +1,10 @@
-title: hop en stock
-description: Recipe history, usefuls links for homebrewing
-
+title: Hopenstock
+description: Montreal home brewery, beer brewing is a passion since 2016. I share my recipes and beer designs.
+author: Erik Clairiot
 baseurl: /hopenstock
 
 permalink: pretty
 show_downloads: false
+
+plugins:
+  - jekyll-seo-tag
