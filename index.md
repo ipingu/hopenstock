@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Latest beer recipes from Hopenstock brewery, by Erik Clairiot
+title: Latest beer recipes from Hopenstock brewery
 ---
 <section>
   {% for post in site.posts %}
